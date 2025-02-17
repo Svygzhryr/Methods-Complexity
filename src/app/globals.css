@@ -1,6 +1,13 @@
 :root {
     --background: #121212;
     --foreground: #fafafa;
+
+    --best: #727ddb;
+    --good: #72db8c;
+    --average: #dbd472;
+    --meh: #dba772;
+    --bad: #db8772;
+    --worst: #db7272;
 }
 
 html,

@@ -3,6 +3,85 @@
     text-align: center;
 }
 
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 400px;
+    border-top: 2px solid var(--foreground);
+}
+
 .header {
     margin-top: 40px;
+}
+
+.section {
+}
+
+.tablesWrapper {
+    display: flex;
+}
+
+.structuresTime,
+.structuresSpace {
+    width: 50%;
+    text-align: center;
+}
+
+.timeTable {
+    width: 100%;
+    margin: 40px 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: start;
+}
+
+.cell {
+    width: 20%;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+/* .cell:first-child {
+    width: 30%;
+} */
+
+.headerRow {
+    font-size: 28px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--foreground);
+}
+
+.best {
+    color: var(--best);
+}
+
+.good {
+    color: var(--good);
+}
+
+.average {
+    color: var(--average);
+}
+
+.meh {
+    color: var(--meh);
+}
+
+.bad {
+    color: var(--bad);
+}
+
+.worst {
+    color: var(--worst);
 }
